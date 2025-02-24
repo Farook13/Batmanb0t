@@ -132,7 +132,7 @@ TUTORIAL = environ.get('TUTORIAL', '') # How Open Shortner Link Video Link , Cha
 
 
 # Others
-CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
+CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 PORT = environ.get("PORT", "8080")
 MSG_ALRT = environ.get('MSG_ALRT', 'Hello My Dear Friends ❤️')
@@ -160,7 +160,7 @@ STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set True or False
 
 # If Stream Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
 MULTI_CLIENT = False
-SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '20'))
+SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '10'))
 PING_INTERVAL = int(environ.get("PING_INTERVAL", "120"))  # 20 minutes
 if 'DYNO' in environ:
     ON_HEROKU = True
