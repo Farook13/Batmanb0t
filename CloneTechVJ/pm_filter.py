@@ -142,7 +142,7 @@ async def advantage_spoll_choker(bot, query):
         reqstr1 = query.from_user.id if query.from_user else 0
         reqstr = await bot.get_users(reqstr1)
         k = await query.message.edit(script.MVE_NT_FND)
-        await asyncio.sleep(10)
+        await asyncio.sleep(5)
         await k.delete()
 
 # Year 
