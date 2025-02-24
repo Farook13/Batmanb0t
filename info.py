@@ -17,7 +17,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "7857321740:AAHSUfjwO3w6Uffmxm9vCUMl36FtXl5
 
 
 # This Pictures Is For Start Message Picture, You Can Add Multiple By Giving One Space Between Each.
-PICS = (environ.get('PICS', 'https://graph.org/file/8ac9be0d690c03e4a6d58-052f8fcda4d18922b8.jpg https://envs.sh/tzT.jpg')).split()
+PICS = (environ.get('PICS', 'https://graph.org/file/8ac9be0d690c03e4a6d58-052f8fcda4d18922b8.jpg https://envs.sh/tzT.jpg  ')).split()
 
 
 # Admins & Users
@@ -160,8 +160,8 @@ STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set True or False
 
 # If Stream Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
 MULTI_CLIENT = False
-SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
-PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
+SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '20'))
+PING_INTERVAL = int(environ.get("PING_INTERVAL", "120"))  # 20 minutes
 if 'DYNO' in environ:
     ON_HEROKU = True
 else:
