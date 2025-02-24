@@ -11,7 +11,7 @@ async def ping_server():
         await asyncio.sleep(sleep_time)
         try:
             async with aiohttp.ClientSession(
-                timeout=aiohttp.ClientTimeout(total=10)
+                timeout=aiohttp.ClientTimeout(total=5)
             ) as session:
                 async with session.get(URL) as resp:
                     logging.info("Pinged server with response: {}".format(resp.status))
