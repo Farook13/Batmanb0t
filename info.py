@@ -63,7 +63,7 @@ DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://pcmovies:pcmovies@clus
 DATABASE_NAME = environ.get('DATABASE_NAME', "pcmovies")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
-MULTIPLE_DATABASE = bool(environ.get('MULTIPLE_DATABASE', False)) # Set True or False
+MULTIPLE_DATABASE = bool(environ.get('MULTIPLE_DATABASE', True)) # Set True or False
 
 # If Multiple Database Is True Then Fill All Three Below Database Uri Else You Will Get Error.
 O_DB_URI = environ.get('O_DB_URI', "mongodb+srv://saidalimuhamed88:iladias2025@cluster0.qt4dv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")   # This Db Is For Other Data Store
@@ -88,9 +88,9 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Us
 
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/batmanmoviehub')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/cinema_company2k')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/batmanmoviehub')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'batmanmoviehub') # Support Chat Link Without https:// or @
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'cinema_company2k') # Support Chat Link Without https:// or @
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Faroo_bruh')
 
 # True Or False
