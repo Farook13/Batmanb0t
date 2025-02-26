@@ -49,8 +49,6 @@ default_setgs = {
     'template': IMDB_TEMPLATE,
     'caption': CUSTOM_FILE_CAPTION,
     'fsub': None,
-    'tutorial': TUTORIAL,
-    'is_tutorial': IS_TUTORIAL
 }
 
 
