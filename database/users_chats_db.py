@@ -48,9 +48,6 @@ default_setgs = {
     'max_btn': MAX_BTN,
     'template': IMDB_TEMPLATE,
     'caption': CUSTOM_FILE_CAPTION,
-    'shortlink': SHORTLINK_URL,
-    'shortlink_api': SHORTLINK_API,
-    'is_shortlink': SHORTLINK_MODE,
     'fsub': None,
     'tutorial': TUTORIAL,
     'is_tutorial': IS_TUTORIAL
